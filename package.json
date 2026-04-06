@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
-    "@sentry/nextjs": "^9.0.0",
+    "@sentry/nextjs": "^10.27.0",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
     "bcryptjs": "^3.0.3",
@@ -22,7 +22,7 @@
     "clsx": "^2.1.1",
     "drizzle-orm": "^0.45.1",
     "lucide-react": "^0.577.0",
-    "next": "16.1.6",
+    "next": "16.1.7",
     "next-auth": "5.0.0-beta.30",
     "react": "19.2.3",
     "react-dom": "19.2.3",
@@ -48,5 +48,15 @@
     "tailwindcss": "^4",
     "typescript": "^5",
     "vitest": "^4.1.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "import-in-the-middle@<=2.0.3": "2.0.3",
+      "@opentelemetry/instrumentation@<=0.207.0": "0.207.0",
+      "next@<=16.1.7": "16.1.7",
+      "@auth/core@<=0.41.1": "0.41.1",
+      "cjs-module-lexer@<=2.2.0": "2.2.0",
+      "picomatch@<=4.0.4": "4.0.4"
+    }
   }
 }
